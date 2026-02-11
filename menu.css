@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdf6e3;
+  }
+  
+  header {
+    background-color: #006400; /
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section h2 {
+    color: #b22222;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
