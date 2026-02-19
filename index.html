@@ -4,25 +4,29 @@
   <meta charset="UTF-8">
   <title>Delicious Bites - Home</title>
   <link rel="stylesheet" href="home.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Delicious Bites</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
+  <h1>Delicious Bites</h1>
+  <h2>Welcome to Delicious Bites</h2>
+  <p><em>Where flavour meets freshness</em></p>
 
-  <main>
-    <section>
-      <h2>Welcome to Delicious Bites!</h2>
-      <p>Where flavor meets freshness.</p>
-    </section>
-  </main>
+  <form id="reserveForm">
+    <label for="name">Name:</label>
+    <input id="name" required>
+
+    <label for="date">Date:</label>
+    <input id="date" type="date" required>
+
+    <label for="time">Time:</label>
+    <input id="time" type="time" required>
+
+    <button type="submit">Reserve</button>
+  </form>
+
+  <div id="savedReservation"></div>
+
+  <button id="clearReservation">Clear Reservation</button>
 
   <footer>
     <p>&copy; 2026 Delicious Bites</p>
