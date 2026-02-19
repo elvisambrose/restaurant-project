@@ -15,3 +15,10 @@ HTML, CSS, JavaScript
 ## Author
 Elvis Ambrose
 
+## Credits
+Developed by Elvis 
+
+## License
+MIT License © 2026 Elvis
+
+
