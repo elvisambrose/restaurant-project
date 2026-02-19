@@ -30,13 +30,6 @@ body {
     padding: 50px;
   }
   
-  footer {
-    background-color: #006400;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
   @media (max-width: 600px) {
     nav ul {
       flex-direction: column;  
@@ -83,5 +76,29 @@ body {
   button:hover {
     background-color: #45a049;
   }
+
+h2 {
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  p em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 14px;
+  }
+  
   
   
