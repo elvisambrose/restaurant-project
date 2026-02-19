@@ -56,4 +56,32 @@ body {
       font-size: 1em;          
     }
   }
+
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      margin: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
   
