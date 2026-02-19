@@ -42,4 +42,10 @@ body {
       font-size: 1em;          
     }
   }
+
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
   
